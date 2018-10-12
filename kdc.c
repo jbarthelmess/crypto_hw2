@@ -3,7 +3,7 @@
 #include<sys/socket.h>
 #include<string.h>
 #include "crypto_math.h"
-#include "../HW1/HW1.h"
+#include "HW1.h"
 #include<arpa/inet.h>
 #include<unistd.h>
 #include<sys/select.h>

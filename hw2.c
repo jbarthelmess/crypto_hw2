@@ -4,7 +4,7 @@
 #include<sys/socket.h>
 #include<sys/types.h>
 #include<arpa/inet.h>
-#include "../HW1/HW1.h"
+#include "HW1.h"
 #include<unistd.h>
 
 void do_encrypt(char* plain, char* dest, int num_bytes, int key)
@@ -36,7 +36,7 @@ int main(int argc, char** argv)
 {
     int top = 0;
     int q;
-    printf("%d\n", argc);
+    // printf("%d\n", argc);
     if(argc < 4)
     {
         fprintf(stderr, "USAGE: ./a.out <NAME> <PORT> <KDC_PORT> [<CONNECTOR>]\n");
